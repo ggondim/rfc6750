@@ -1,0 +1,24 @@
+{
+  "name": "rfc6750",
+  "version": "1.0.0",
+  "description": "A group of utilities when dealing with RFC 6750 rules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOALVO/rfc6750.git"
+  },
+  "keywords": ["rfc6750", "bearer", "token", "rfc6749", "oauth"],
+  "author": {
+    "email": "tecnologia@midianoalvo.com.br",
+    "name": "NOALVO",
+    "url": "https://github.com/NOALVO"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NOALVO/rfc6750/issues"
+  },
+  "homepage": "https://github.com/NOALVO/rfc6750#readme"
+}
