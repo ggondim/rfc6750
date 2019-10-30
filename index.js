@@ -17,11 +17,14 @@ const ACCESS_TOKEN_PARAMETER = 'access_token';
  * @returns {string|null} An RFC 6750 bearer token extracted from request.
  * @see https://tools.ietf.org/html/rfc6750#section-2 for more information about supported authentication methods
  */
-function extractTokenFromRequest({ query, headers, body }) {
+function extractTokenFromRequest({ query, headers, body }, {
+  authorizationHeaderKey = AUTHORIZATION_HEADER,
+  cookieHeaderKey = COOKIE_HEADER,
+} = {}) {
   let cookies;
 
-  const authHeader = headers[AUTHORIZATION_HEADER];
-  const cookieHeader = headers[COOKIE_HEADER];
+  const authHeader = headers[authorizationHeaderKey];
+  const cookieHeader = headers[cookieHeaderKey];
   let fromQuery = query[ACCESS_TOKEN_PARAMETER];
   let fromBody = body[ACCESS_TOKEN_PARAMETER];
 
