@@ -1,0 +1,29 @@
+{
+  "name": "rfc6750",
+  "version": "1.1.1",
+  "description": "A group of utilities when dealing with RFC 6750 rules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggondim/rfc6750.git"
+  },
+  "keywords": [
+    "rfc6750",
+    "bearer",
+    "token",
+    "rfc6749",
+    "oauth"
+  ],
+  "author": {
+    "name": "Gustavo Gondim",
+    "url": "https://github.com/ggondim"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggondim/rfc6750/issues"
+  },
+  "homepage": "https://github.com/ggondim/rfc6750#readme"
+}
