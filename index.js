@@ -1,3 +1,5 @@
+const cookie = require('./cookie.js');
+
 const BEARER_SCHEME = 'Bearer';
 const AUTHORIZATION_HEADER = 'Authorization';
 const COOKIE_HEADER = 'Cookie';
